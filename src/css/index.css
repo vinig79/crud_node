@@ -1,0 +1,42 @@
+
+
+
+
+
+
+body{
+    background: linear-gradient(45deg, #E2EDF3 ,#2A5065);
+    font-family: arial; 
+}
+
+.grid{
+  display: grid;
+}
+
+.card{
+  margin: 5px;
+  text-align:justify;
+  background: #2a506581 ;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card button{
+  background-color: dodgerblue;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  bottom: 8px;
+  position: relative;
+
+}
+
+.card button:hover{
+  background-color: #9AC0D5;
+}
+
+.card label input[type="checkbox"]{
+  border-radius: 5px;
+}
