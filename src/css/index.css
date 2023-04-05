@@ -37,6 +37,16 @@ body{
   background-color: #9AC0D5;
 }
 
-.card label input[type="checkbox"]{
-  border-radius: 5px;
+#delete{
+  background-color: rgb(136, 21, 40);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  bottom: 8px;
+  position: relative;
+}
+
+#delete:hover{
+  background-color: rgb(255, 30, 68) ;
 }
