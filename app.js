@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.use(session(sess));
 //
-app.use('crudnode.netlify.app/',index);
+app.use('/crudnode.netlify.app/',index);
 app.use('/index', index);
 app.use('/register', register );
 app.use('/edite', edite);
