@@ -4,10 +4,7 @@
   "description": "",
   "main": "./app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "NODE_ENV=development ./node_mudules/.bin/netlify-lambda server ./",
-    "start": "node ./app.js",
-    "build": "NODE_ENV=production ./node_mudules/.bin/netlify-lambda server ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
