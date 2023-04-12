@@ -1,12 +1,19 @@
-
-
-
-
-
-
 body{
-    background: linear-gradient(45deg, #E2EDF3 ,#2A5065);
+    background: linear-gradient(to right, #E2EDF3 ,#2A5065);
     font-family: arial; 
+}
+
+a{
+  background-color:  dodgerblue ;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black ;
+}
+
+a:hover{
+  background-color: #9AC0D5;
+
 }
 
 .grid{

@@ -10,17 +10,15 @@
         <title>Login</title>
     </head>
     <body>
-        
+        <a class="bot" href="/register">register</a>
+        <% if(at){%>
+            <a class="bot1"href="/index">index</a>
+        <%}%>
         <div class="login">
             <h1>Login</h1>
             <input type="email" name="email" placeholder="email"><br><br>
             <input type="password" name="senha" placeholder="senha"><br><br>
-            <button onclick="login()">login</button><br>
-            <br><br>
-            <a class="bot" href="/register">register</a>
-            <% if(at){%>
-                <br><br><br><a class="bot1"href="/index">index</a>
-            <%}%>
+            <button onclick="login()">login</button>
         </div>
         
     </body>

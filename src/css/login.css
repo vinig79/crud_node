@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, #E2EDF3 ,#2A5065);
+    background: linear-gradient(to right, #E2EDF3 ,#2A5065);
     font-family: arial;
 }
 
@@ -36,34 +36,28 @@ body {
     background-color: #9AC0D5;
 }
 
-.login .bot{
+.bot{
     background-color:  dodgerblue ;
-    border-radius: 10px;
-    padding: 15px;
-    padding-left:84px ;
-    padding-right:84px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     color: black ;
 }
 
-.login .bot:hover{
+.bot:hover{
     background-color: #9AC0D5;
 
 }
 
-.login .bot1{
+.bot1{
     background-color:  rgb(255, 30, 68) ;
-    border-radius: 10px;
-    padding: 15px;
-    padding-left:92px ;
-    padding-right:92px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     color: black ;
 }
 
-.login .bot1:hover{
+.bot1:hover{
     background-color: #d59abc;
 
 }
