@@ -3,6 +3,7 @@ const methodOverride = require("method-override");
 const session = require("express-session");
 const db = require("./models/db.js")
 
+
 const port = 3000;
 const bodyParser = require("body-parser");
 
@@ -27,7 +28,7 @@ app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.use(session(sess));
 //
-app.use('/',index);
+app.use('crud-node-five.vercel.app/',index);
 app.use('/index', index);
 app.use('/register', register );
 app.use('/edite', edite);
