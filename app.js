@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.use(session(sess));
 //
-app.use('crud-node-five.vercel.app/',index);
+app.use('crud-node-git-main-vinig79.vercel.app/',index);
 app.use('/index', index);
 app.use('/register', register );
 app.use('/edite', edite);
