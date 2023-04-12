@@ -1,4 +1,10 @@
 {
+    "name": "Pin",
+    "public": true,
+    "build":{
+        "src":"./index.js",
+        "use": "@vercel/node"
+    },
     "routes" :[
         {
             "src":"/(.*)",
