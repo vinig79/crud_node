@@ -38,5 +38,5 @@ app.use("/home", home);
 
 app.listen(port, async () =>{
     await db.sync();
-    console.log("funfo");
+    console.log("funfo" + port);
 })
