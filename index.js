@@ -32,7 +32,7 @@ app.use('/',index);
 app.use('/index', index);
 app.use('/register', register );
 app.use('/edite', edite);
-app.use('/login', login);
+app.use(login);
 app.use("/home", home);
 
 
