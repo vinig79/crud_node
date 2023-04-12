@@ -1,10 +1,9 @@
 function comentar(){
     const text = document.getElementById('comment');
-    console.log(text);
-    const dado = {text : text};
-    //axios.post("/home", dado); 
-    
-    //window.location.href = "/index";
+    const dado = {text : text.value};
+    console.log(dado);
+    axios.post("/home", dado);
+    window.location.href = "/index";
 }
 
 const textarea = document.querySelector("textarea");
