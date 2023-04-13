@@ -4,7 +4,8 @@ const User = require("../models/User.js");
 
 
 route.get("/", async (req , res) =>{
-    res.render("login", {at: req.session.authenticated});
+    res.send("running");
+    //res.render("login", {at: req.session.authenticated});
 })
 
 route.post("/", async (req, res) =>{
