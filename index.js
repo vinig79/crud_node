@@ -23,6 +23,7 @@ const sess = {
 
 app.use(express.static('src'));
 app.set("view engine","ejs");
+app.set("views","./views")
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride('_method'));
