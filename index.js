@@ -2,6 +2,7 @@ const express = require("express");
 const methodOverride = require("method-override");
 const session = require("express-session");
 const db = require("./models/db.js")
+const path = require("path");
 
 
 const port = 3000;
@@ -22,7 +23,7 @@ const sess = {
 };
 
 app.use(express.static('src'));
-app.set('views', './views');
+app.set('views', path.join(__dirname, 'views'));
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
