@@ -11,4 +11,4 @@ async function del(){
 
 function edita(val){
     window.location.href = "/edite?id="+val;
-}
+};
