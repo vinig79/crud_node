@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to right, #E2EDF3 ,#2A5065);
+    font-family: arial; 
+}
+
+a{
+    background-color:  dodgerblue ;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black ;
+}
+
+a:hover{
+    background-color: #9AC0D5;
+
+}
+
+button{
+    background-color: dodgerblue;
+    padding: 5px;
+    border: none;
+    outline: none;
+    bottom: 8px;
+    position: relative;
+  
+}
+  
+button:hover{
+    background-color: #9AC0D5;
+}
+  
+
+textarea{
+    font-size: 16px;
+    resize: none;
+    padding: 15px;
+    height: 59px;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea::-webkit-scrollbar{
+    width: 0;
+}
+
+textarea:is(:focus, :valid){
+    border-width: 2px;
+    padding: 14;
+
+}

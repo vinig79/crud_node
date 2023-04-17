@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="javascript/register.js"></script>
+    <title>register</title>
+</head>
+<body>
+    <a class="bot" href="/login">Login</a>
+    <% if(at){%>
+        <a class="bot1" href="/index">index</a>
+    <%}%>
+    <div class="register">
+        <h1>Register</h1>
+        <input type="text" name="nome" placeholder="nome"><br><br>
+        <input type="email" name="email" placeholder="email"><br><br>
+        <input type="password" name="senha_1" placeholder="senha"><br><br>
+        <input type="password" name="senha_2" placeholder="redigite a senha"><br><br>
+        <button onclick="register()">Register</button><br><br><br>
+        
+    
+    </div>
+</body>
+</html>
