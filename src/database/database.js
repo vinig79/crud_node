@@ -75,6 +75,5 @@ class Database{
 };
 
 const db = new Database();
-console.log(db.models)
 
 export default db;
